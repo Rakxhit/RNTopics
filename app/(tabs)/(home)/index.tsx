@@ -20,6 +20,12 @@ export default function HomeScreen() {
               router.navigate("/Apollo");
             }}
           />
+          <Button
+            title="MobX"
+            onPress={() => {
+              router.navigate("/MobX");
+            }}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>
