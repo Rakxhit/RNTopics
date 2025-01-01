@@ -7,6 +7,7 @@ const HomeScreen = () => {
     <Stack>
       <Stack.Screen name="index" options={{ headerShown: false }} />
       <Stack.Screen name="Apollo" options={{ headerShown: false }} />
+      <Stack.Screen name="MobX" options={{ headerShown: false }} />
     </Stack>
   );
 };
