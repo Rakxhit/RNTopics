@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomSafeAreaViewScroll component should render correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    [
+      {
+        "backgroundColor": "#1a1a1a",
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+  testID="safe-area-view"
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flex": 1,
+        "padding": 10,
+        "paddingTop": 20,
+      }
+    }
+    nestedScrollEnabled={true}
+  >
+    <View>
+      <Text>
+        Test Text
+      </Text>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

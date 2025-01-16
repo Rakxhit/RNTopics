@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Onboarding item should match the snapshot 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    {
+      "backgroundColor": "black",
+      "flex": 1,
+      "justifyContent": "flex-end",
+      "resizeMode": "cover",
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://gif.png",
+      }
+    }
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+    testID="background-image"
+  />
+  <LinearGradient
+    colors={
+      [
+        "rgba(0,0,0,0.0)",
+        "rgba(0,0,0,0.2)",
+        "rgba(0,0,0,0.8)",
+        "rgba(0,0,0,1)",
+      ]
+    }
+    style={
+      {
+        "flex": 1,
+        "justifyContent": "flex-end",
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "marginBottom": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#fff",
+            "fontFamily": "Poppins-SemiBold",
+            "fontSize": 26,
+            "marginBottom": 10,
+          }
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#fff",
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 12,
+            "marginBottom": 30,
+          }
+        }
+      >
+        Test Subtitle
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#11b9a8",
+              "borderRadius": 30,
+              "opacity": 1,
+              "paddingVertical": 15,
+              "width": "45%",
+            }
+          }
+          testID="first-button"
+        >
+          <Text
+            style={
+              {
+                "color": "#fff",
+                "fontFamily": "Poppins-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            First Button
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#fff",
+              "borderRadius": 30,
+              "opacity": 1,
+              "paddingVertical": 15,
+              "width": "45%",
+            }
+          }
+          testID="second-button"
+        >
+          <Text
+            style={
+              {
+                "color": "#0D1829",
+                "fontFamily": "Poppins-SemiBold",
+                "fontSize": 15,
+              }
+            }
+          >
+            Second Button
+          </Text>
+        </View>
+      </View>
+    </View>
+  </LinearGradient>
+</View>
+`;
