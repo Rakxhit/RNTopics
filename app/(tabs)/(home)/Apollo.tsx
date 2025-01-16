@@ -26,7 +26,7 @@ const Apollo = () => {
   const { data: suspenseData } = useSuspenseQuery(GET_USER_DATE);
   console.log("suspenseData: ", suspenseData);
 
-  if (error) return <Text>What an error </Text>;
+  if (error) return <Text>What an error</Text>;
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.mainContainer}>
@@ -35,12 +35,14 @@ const Apollo = () => {
           {data?.company?.ceo}
         </Text>
         <Button
+          testID="start-polling"
           title="Start polling on 1 second"
           onPress={() => {
             startPolling(1000);
           }}
         />
         <Button
+          testID="stop-polling"
           title="Stop polling "
           onPress={() => {
             stopPolling();
