@@ -5,9 +5,10 @@ import { Stack } from "expo-router";
 const HomeScreen = () => {
   return (
     <Stack>
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-      <Stack.Screen name="Apollo" options={{ headerShown: false }} />
-      <Stack.Screen name="MobX" options={{ headerShown: false }} />
+      <Stack.Screen name="index" />
+      <Stack.Screen name="Apollo" />
+      <Stack.Screen name="MobX" />
+      <Stack.Screen name="Detox" />
     </Stack>
   );
 };

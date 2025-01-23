@@ -15,15 +15,24 @@ export default function HomeScreen() {
         <Text style={styles.titleText}>Learning Topics of react native</Text>
         <View style={{ justifyContent: "center" }}>
           <Button
+            testID="Apollo-button"
             title="Apollo"
             onPress={() => {
               router.navigate("/Apollo");
             }}
           />
           <Button
+            testID="Mobx-button"
             title="MobX"
             onPress={() => {
               router.navigate("/MobX");
+            }}
+          />
+          <Button
+            testID="Detox-button"
+            title="Detox"
+            onPress={() => {
+              router.navigate("/Detox");
             }}
           />
         </View>

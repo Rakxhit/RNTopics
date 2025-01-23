@@ -3,13 +3,15 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start -c",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "detox:ios_build": "detox build --configuration ios.sim.debug",
+    "detox:ios_test": "detox test --configuration ios.sim.debug"
   },
   "jest": {
     "preset": "jest-expo"
@@ -25,6 +27,7 @@
     "expo": "~52.0.23",
     "expo-blur": "~14.0.1",
     "expo-constants": "~17.0.3",
+    "expo-device": "~7.0.2",
     "expo-font": "~13.0.2",
     "expo-haptics": "~14.0.0",
     "expo-linking": "~7.0.3",
@@ -51,11 +54,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@config-plugins/detox": "^9.0.0",
     "@testing-library/react-native": "^13.0.0",
     "@types/jest": "^29.5.12",
     "@types/react": "~18.3.12",
     "@types/react-test-renderer": "^18.3.0",
-    "jest": "^29.2.1",
+    "detox": "^20.32.0",
+    "jest": "^29.7.0",
     "jest-expo": "~52.0.2",
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
