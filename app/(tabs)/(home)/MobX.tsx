@@ -1,6 +1,7 @@
 import {
   Button,
   SafeAreaView,
+  ScrollView,
   StyleSheet,
   Text,
   TextInput,
@@ -35,14 +36,19 @@ const MobX = observer(() => {
   return (
     <SafeAreaView style={styles.container}>
       <TextInput
+        testID="todo-textinput"
         value={text}
         placeholder="Add the title here"
         style={styles.inputStyle}
         onChangeText={onChangeText}
         onSubmitEditing={onPressAddTodo}
       />
-      <Button title="Add a ToDo" onPress={onPressAddTodo} />
-      <View style={{ marginTop: 20 }}>
+      <Button
+        title="Add a ToDo"
+        onPress={onPressAddTodo}
+        testID="Add-todo-button"
+      />
+      <ScrollView style={{ marginTop: 20 }} keyboardDismissMode="on-drag">
         {todoStore.todoState.map((todo, index) => (
           <TouchableOpacity
             onPress={onPressId(todo.id)}
@@ -60,7 +66,7 @@ const MobX = observer(() => {
             </Text>
           </TouchableOpacity>
         ))}
-      </View>
+      </ScrollView>
     </SafeAreaView>
   );
 });
