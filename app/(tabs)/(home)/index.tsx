@@ -35,6 +35,13 @@ export default function HomeScreen() {
               router.navigate("/Detox");
             }}
           />
+          <Button
+            testID="Map-button"
+            title="Map"
+            onPress={() => {
+              router.navigate("/Map");
+            }}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>

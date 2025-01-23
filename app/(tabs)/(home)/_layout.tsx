@@ -9,6 +9,7 @@ const HomeScreen = () => {
       <Stack.Screen name="Apollo" />
       <Stack.Screen name="MobX" />
       <Stack.Screen name="Detox" />
+      <Stack.Screen name="Map" />
     </Stack>
   );
 };
