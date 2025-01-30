@@ -10,6 +10,7 @@ const HomeScreen = () => {
       <Stack.Screen name="MobX" />
       <Stack.Screen name="Detox" />
       <Stack.Screen name="Map" />
+      <Stack.Screen name="Lodash" />
     </Stack>
   );
 };
