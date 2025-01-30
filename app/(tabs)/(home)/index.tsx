@@ -42,6 +42,13 @@ export default function HomeScreen() {
               router.navigate("/Map");
             }}
           />
+          <Button
+            testID="Lodash-button"
+            title="Lodash"
+            onPress={() => {
+              router.navigate("/Lodash");
+            }}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>

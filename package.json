@@ -39,6 +39,7 @@
     "expo-system-ui": "~4.0.6",
     "expo-web-browser": "~14.0.1",
     "graphql": "^16.10.0",
+    "lodash": "^4.17.21",
     "mobx": "^6.13.5",
     "mobx-persist-store": "^1.1.5",
     "mobx-react-lite": "^4.1.0",
